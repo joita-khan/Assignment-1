@@ -59,25 +59,67 @@ line-height: 30px;
     color: aliceblue;
     border: none;
 }
-.extra-part-text{
+
+/* extra-part-text{
    text-align: center;
-}
-.big-img{
+} */
+
+/* .big-img{
     height: 450px;
     width: 350px;
-    padding-top: 70px;
+    padding-top: 70px; */ 
+
+    .bonus-part-text{
+        text-align: center;
+    }
+
+    .pic-1{
+        height:400px;
+        width: 360px;
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+
+    .pic-2{
+        padding: 70px;
+        padding-left: 10px;
+    }
+     
+    .pic-3{
+        padding-top: 30px;
+        padding-left: 50px;
+    }
    
-}
-
-.extra-part-img{
-    display: flex;
-    gap: 0 40px;
-    height: 100%;
-    width: 100%;
-    background-color: pink;
-    justify-content: center;
-
-}
+    .pink-flower{
+        display: flex;
+        gap: 40px;
+        margin-left: 280px;
+    }
+    .pink-flower-1{
+         width: 400px;
+         height: 500px;
+         border-radius: 200px 200px 0px 0px;
+         background-color: rgb(232, 196, 208);
+    
+    }
+    .pink-flower-2{
+        width: 400px;
+         height:500px;
+         border-radius: 200px 200px 0px 0px;
+         background-color: rgba(5, 151, 160, 0.15);
+    }
+    .pink-flower-3{
+        width: 400px;
+         height: 500px;
+         border-radius: 200px 200px 0px 0px;
+         background-color: rgba(71, 125, 17, 0.15);
+    
+    }
+    .three-text{
+          display: flex;
+          justify-content: space-evenly;
+          text-decoration: underline;
+    }
 
 .Hot-Deal-banner{
     background-color: rgb(247, 237, 238);
