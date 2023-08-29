@@ -4,6 +4,9 @@ body{
 section{
     margin-bottom: 50px;
 }
+h1{
+    font-size: xx-large;
+}
 h3{
     font-size: 30px;
 }
@@ -56,6 +59,25 @@ line-height: 30px;
     color: aliceblue;
     border: none;
 }
+.extra-part-text{
+   text-align: center;
+}
+.big-img{
+    height: 450px;
+    width: 350px;
+    padding-top: 70px;
+   
+}
+
+.extra-part-img{
+    display: flex;
+    gap: 0 40px;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    justify-content: center;
+
+}
 
 .Hot-Deal-banner{
     background-color: rgb(247, 237, 238);
@@ -78,23 +100,28 @@ line-height: 30px;
 .from-part{
     background-image: url(../assignment-1/pic/background.png);
     background-repeat: repeat-y;
-    background-position: center;
-    
-    
-    
-    
-    
+    background-position: center;  
 }
-   /* .img-card{
-      justify-content: space-between;
-   } */
-   
+  
 .img{
 width: 100px;
 height: 300px;
 display: flex;
 
 }
+
+ .insta-text{
+    text-align: center;
+ }
+
+ .img-card{
+    display: flex;
+    gap: 0 30px;
+    width: 100%;
+    justify-content: center;
+
+ }
+
  .Get-img{
     text-align: center;
     margin: 0 200px;
